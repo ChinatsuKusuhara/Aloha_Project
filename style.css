@@ -1,0 +1,274 @@
+html, body {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content:'';
+  clear: both;
+  display:table;
+}
+
+
+.clearfix{
+  overflow: hidden;
+  width: 100%;
+}
+
+.container{
+  padding: 0 2%;
+  margin: 0 auto;
+  max-width: 1240px;
+  width: 100%;
+}
+
+img {
+  display: inline;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    margin:auto;
+    color:#2d2d2d;
+    font-family: 'Raleway';
+
+
+}
+.header {
+  overflow: hidden;
+  padding: 1rem;
+  align-items: stretch;
+}
+
+
+.logo {
+  float: left;
+  width: 160px;
+
+}
+.cart {
+  float: right;
+  width: 62px;
+}
+
+.hero-flowerBanner {
+  background:linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4)100%),
+  url(assets/images/banner-girl.png) no-repeat center 4rem,
+  url(assets/images/flower-bkgd.jpg) repeat-x center top;
+  background-size: cover, contain;
+	background-position-y: 0rem, 2rem;
+	height: 28.5rem;
+	position: relative;
+	text-align: center;
+  margin-top:auto;
+}
+
+.bannerText {
+  position: absolute;
+  transform:translate(0,-50%);
+  width: 100%;
+  color: white;
+  top: 50%;
+  text-align: center;
+}
+
+.new {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+  font-family: 'Raleway';
+  font-weight: bold;
+
+}
+.spring {
+  font-family: 'Playfair Display';
+  font-size: 2.85rem;
+  margin: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.handcrafted-style {
+  text-align: center;
+  padding: 3.5rem 0 2rem;
+  border-bottom: 2px solid #d7d7d7;
+}
+.handcraft {
+
+}
+.italic h2 {
+  padding-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: 'playfair Displayitalic';
+  font-style: italic;
+  padding-bottom: 1.5rem;
+  font-weight: normal;
+  font-size: 2.25rem;
+}
+
+.bold {
+  font-weight: bold;
+  font-style: normal;
+}
+.write {
+  font-size: 1.10rem;
+  padding-bottom:1.5rem;
+  line-height: 2.5rem;
+}
+.mostLoved-products {
+  margin-top: 80px;
+}
+.mostLoved-products h2 {
+  padding: 3rem 0 2rem;
+}
+
+.mostLoved-products div {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  font-family: 'Raleway';
+  margin-bottom: 30px;
+
+}
+
+
+.products {
+  width: 100%;
+  padding: 13px;
+  margin: auto;
+  height: 476px;
+  overflow: hidden;
+  position: relative;
+  display:inline-block;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  text-align: center;
+}
+.category{
+  text-transform: uppercase;
+  font-size: 0.87rem;
+  color:#969696;
+  line-height: 150%
+}
+.product-name {
+  font-family: 'Playfair Display', sans-serif;;
+  font-size: 1.15rem;
+  color: #e2574c;
+  font-style: normal;
+  line-height: 150%;
+}
+.price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.87rem;
+  color: #969696;
+  line-height: 150%;
+}
+
+
+.waveBanner {
+  background: linear-gradient(rgba(0,0,0,0.2),
+                              rgba(0,0,0,0.2)),
+  url(assets/images/wave-bkgd.jpg) no-repeat center bottom;
+  text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  padding: 3rem 0;
+  /*height:275px;*/
+  border-bottom: 0.5rem, solid white;
+  font-weight: normal;
+  color: white;
+}
+
+.waveBanner p{
+  font-size: 1.15rem;
+  line-height: 2.5rem;
+}
+
+.waveBanner form {
+  display: block;
+  margin: 1.5rem auto 0;
+  position: relative;
+  width: 35%;
+}
+.subscrib-button {
+  width:70%
+}
+input {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 2;
+}
+input[type="email"] {
+  padding: 0.5rem 1.75rem;
+  padding-right: 150px;
+  width: 100%;
+  border: 0;
+  border-radius: 25px;
+}
+input[type="submit"] {
+  background-color: #e2574c;
+  color: white;
+  font-weight: bold;
+  padding: 0.25rem 1.5rem;
+  position: absolute;
+  border-radius: 25px;
+  border: 0;
+  right:0.25rem;
+  top:0.25rem;
+}
+
+.foot {
+  font-family: 'Playfair Display';
+  background: #242424;
+  color: white;
+  height: 247px;
+  padding-left: 20px;
+  border-top: white solid 10px;
+}
+.left-info {
+  float:left;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+
+}
+.phone {
+  padding-top: 1rem;
+}
+
+.address {
+  color: #969696;
+  margin-top: 10px;
+}
+
+.network {
+text-decoration:none;
+display:inline-block;
+float:right;
+position: relative;
+font-size: 1rem;
+margin: 35px;
+line-height: 2;
+padding-right: 30px;
+font-family: 'Raleway';
+}
+.network a {
+  font-size: 1rem;
+  color: white;
+  text-decoration:none;
+}
+
+
+a:hover{
+  color: red;
