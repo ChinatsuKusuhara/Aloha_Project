@@ -4,24 +4,15 @@ html, body {
 * {
   box-sizing: border-box;
 }
-.clearfix:after {
-  content:'';
-  clear: both;
-  display:table;
-}
-
-
-.clearfix{
-  overflow: hidden;
-  width: 100%;
-}
 
 .container{
   padding: 0 2%;
   margin: 0 auto;
   max-width: 1240px;
   width: 100%;
+
 }
+
 
 img {
   display: inline;
@@ -38,32 +29,29 @@ body {
 
 }
 .header {
-  overflow: hidden;
-  padding: 1rem;
+  display: flex;
+  flex-wrap:wrap;
   align-items: stretch;
+  justify-content: space-between;
+  padding: 1rem;
+
 }
 
-
 .logo {
-  float: left;
   width: 160px;
 
 }
 .cart {
-  float: right;
   width: 62px;
 }
 
 .hero-flowerBanner {
-  background:linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4)100%),
-  url(assets/images/banner-girl.png) no-repeat center 4rem,
-  url(assets/images/flower-bkgd.jpg) repeat-x center top;
-  background-size: cover, contain;
-	background-position-y: 0rem, 2rem;
-	height: 28.5rem;
-	position: relative;
-	text-align: center;
-  margin-top:auto;
+  background:linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25)100%),
+  url(assets/images/banner-girl.png) no-repeat center 40px,
+  url(assets/images/flower-bkgd.jpg) repeat-x center center;
+  background-size: auto 100%;
+  width: 100%;
+  height: 400px;
 }
 
 .bannerText {
@@ -235,6 +223,7 @@ input[type="submit"] {
   height: 247px;
   padding-left: 20px;
   border-top: white solid 10px;
+  justify-content: space-between;
 }
 .left-info {
   float:left;
@@ -262,6 +251,8 @@ margin: 35px;
 line-height: 2;
 padding-right: 30px;
 font-family: 'Raleway';
+display: flex;
+flex-direction: column;
 }
 .network a {
   font-size: 1rem;
