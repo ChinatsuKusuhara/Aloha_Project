@@ -1,0 +1,75 @@
+/********************************************************/
+/*              MOST LOVED PRODUCTS                     */
+/********************************************************/
+.products {
+  text-align: center;
+  padding-bottom: 1rem;
+  width: 100%;
+    h2 {
+    padding: 3rem 0 2rem;
+  }
+    img {
+    width: 20rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+  }
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+    img {
+      max-width: 100%;
+      display: block;
+ }
+} 
+
+.product-category {
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #969696;
+  padding-bottom: 1.25rem;
+  font-weight: 300;
+  font-style: none;
+  font-family: 'Raleway';
+}
+.link {
+  font-family: 'Playfair Display';
+  font-size: 1.5rem;
+  color: #e2574c;
+  padding-bottom: 1.25rem;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+}
+.price {
+  font-family: 'Raleway';
+  font-weight: normal;
+  font-style: normal;
+  color: #969696;
+  padding-bottom: 3rem;
+}
+/********************/
+/*   CAROUSEL CELL  */
+/********************/
+.flickity-page-dots .dot{
+  width: .80rem;
+  height: .80rem;
+}
+.main-carousel {
+ width:100%;
+  @include tablet{
+    width: 50%;
+  }
+}
+.carousel-cell {
+  width:100%;
+  text-align: center;
+  padding: 3rem 2rem;
+    @include tablet{
+    width: 50%;
+  }
+    @include desktop{
+      width: 25%;
+    }
+}

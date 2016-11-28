@@ -1,0 +1,56 @@
+/********************************************************/
+/*                      FOOTER                          */
+/********************************************************/
+.footer {
+  font-family:'Playfair Display';
+  text-align: center;
+  background-color: #242424;
+  color: #FFF;
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.copyright{
+  padding: 4rem 0 1.5rem;
+  line-height: 1.5rem;
+}
+.address {
+  line-height: 1.5rem;
+  color: #969696;
+  padding-bottom: 3rem;
+}
+.phone-email {
+  padding-bottom: 1.5rem;
+  a {
+    color: white;
+  }
+}
+.social-media {
+  padding-bottom:4rem;
+  @include tablet{
+    padding: 4rem 2rem 0 0;
+    display: flex;
+
+  }
+
+ li{
+  display: inline-block;
+  padding: 0 0.5rem;
+    @include tablet {
+      display: block;
+      text-align: left;
+      padding: 0.5rem 0;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.aloha-info{
+  @include tablet{
+    text-align: left;
+    padding-left: 1rem;
+  }
+}
