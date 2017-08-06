@@ -522,4 +522,8 @@ input {
     padding-left: 1rem; } }
 
 .gone {
-  display: none; }
+  display: none;
+  padding-left: .5rem; }
+  @media (min-width: 600px) {
+    .gone {
+      display: unset; } }

@@ -56,4 +56,8 @@
 }
 .gone {
   display: none;
+  padding-left: .5rem;
+      @include tablet {
+        display: unset;
+      }
 }
