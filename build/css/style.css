@@ -520,3 +520,6 @@ input {
   .aloha-info {
     text-align: left;
     padding-left: 1rem; } }
+
+.gone {
+  display: none; }
